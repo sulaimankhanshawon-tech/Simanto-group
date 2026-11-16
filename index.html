@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>কসবা সীমান্ত স্বপ্নভূমি – সদস্য ফর্ম</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef2ef;--card:#fff;--green:#1b5a3e;--gold:#c0993f;--soft:#eaf3ee;--ink:#1d2b24;--line:#7b8580;--bar:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14201a;--bar:#1c2b23}}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);font-family:'Noto Sans Bengali',system-ui,sans-serif;color:var(--ink);padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
+.toolbar{position:sticky;top:0;z-index:5;background:var(--bar);display:flex;gap:10px;justify-content:center;padding:10px;border-bottom:1px solid #0002;flex-wrap:wrap}
+button{font:600 15px 'Noto Sans Bengali',sans-serif;border:0;border-radius:10px;padding:10px 18px;cursor:pointer}
+.btn-dl{background:var(--green);color:#fff}
+.btn-rs{background:#e4e9e6;color:#222}
+.btn-wa{background:#25d366;color:#fff}
+.wrap{padding:14px;overflow-x:hidden}
+#sheet{max-width:794px;margin:0 auto;background:var(--card);border:4px solid var(--green);border-radius:14px;padding:26px 26px 22px;color:#1d2b24}
+.logo{display:block;margin:0 auto 6px}
+h1{margin:0;text-align:center;color:var(--green);font-size:26px;font-weight:700;line-height:1.3}
+h2.sub{margin:2px 0 8px;text-align:center;color:var(--green);font-size:18px;font-weight:700}
+.rule{height:4px;background:var(--gold);border-radius:2px;width:80%;margin:0 auto 16px}
+.sec{background:#eaf3ee;color:var(--green);font-weight:700;font-size:15px;padding:6px 14px;border-radius:6px;border:1px solid #d3e4da;margin:14px 0 10px}
+.top{display:flex;gap:16px;align-items:flex-start}
+.fields{flex:1;min-width:0}
+.row{display:flex;align-items:flex-end;gap:6px;margin-bottom:11px}
+.row label{font-weight:600;font-size:13.5px;white-space:nowrap;color:#1d2b24}
+.row input{flex:1;min-width:0;border:0;border-bottom:1px solid #7b8580;background:transparent;font:500 14px 'Noto Sans Bengali',sans-serif;padding:3px 2px;outline:0;color:#111;border-radius:0}
+.row input:focus{border-bottom:2px solid var(--green)}
+.grid{display:grid;grid-template-columns:1fr 1fr;column-gap:34px}
+.photo{width:98px;height:126px;flex:none;border:1.5px solid #6b7570;border-radius:6px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:11.5px;color:#6b7570;cursor:pointer;overflow:hidden;background:#fff}
+.photo{position:relative}.photo img{width:100%;height:100%;object-fit:cover;display:block}.pin{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;cursor:pointer;font-size:0;z-index:2}
+.note{font-size:11.5px;color:#5a6560;margin:-4px 0 4px 3px}
+.decl{font-size:13px;margin:4px 3px 0}
+.sigs{display:flex;justify-content:space-between;gap:20px;margin:54px 10px 18px}
+.sig{flex:1;text-align:center;font-size:12.5px;font-weight:600}
+.sig i{display:block;border-top:1px solid #333;margin-bottom:4px}
+.foot{background:#f1f6f3;border:1.5px solid var(--green);border-radius:12px;padding:14px 10px 12px;text-align:center}
+.foot .gl{height:1.5px;background:var(--gold);width:80%;margin:0 auto 4px}
+.foot b{display:block;color:var(--green);font-size:20px}
+.foot small{color:var(--green);font-weight:600;font-size:12px}
+.hint{max-width:794px;margin:10px auto 0;text-align:center;font-size:12.5px;opacity:.7}
+@media (max-width:600px){
+ #sheet{padding:18px 14px}
+ h1{font-size:20px}
+ .grid{grid-template-columns:1fr}
+ .top{flex-direction:column-reverse;align-items:center}
+ .fields{width:100%}
+ .row label{font-size:13px}
+}
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <button class="btn-dl" id="dl">⬇ ছবি হিসেবে ডাউনলোড</button>
+  <button class="btn-wa" id="wa">WhatsApp এ পাঠান</button>
+  <button class="btn-rs" id="rs">রিসেট</button>
+</div>
+<div class="wrap">
+<div id="sheet">
+  <svg class="logo" width="68" height="68" viewBox="0 0 68 68"><circle cx="34" cy="34" r="32" fill="#eef5f0" stroke="#1b5a3e" stroke-width="2"/><path d="M16 34 34 17l18 17" fill="none" stroke="#1b5a3e" stroke-width="4" stroke-linejoin="round"/><rect x="22" y="33" width="24" height="17" fill="none" stroke="#1b5a3e" stroke-width="3"/><rect x="31" y="39" width="6" height="11" fill="#1b5a3e"/><circle cx="49" cy="17" r="4" fill="#c0993f"/></svg>
+  <h1>কসবা সীমান্ত স্বপ্নভূমি প্রকল্প ২০২৬</h1>
+  <h2 class="sub">সদস্য ফর্ম</h2>
+  <div class="rule"></div>
+
+  <div class="sec">সদস্যের ব্যক্তিগত তথ্য</div>
+  <div class="top">
+    <div class="fields">
+      <div class="row"><label>সদস্যের নাম (বাংলায়):</label><input id="f1"></div>
+      <div class="row"><label>সদস্যের নাম (ইংরেজিতে):</label><input id="f2"></div>
+      <div class="row"><label>পিতার নাম:</label><input id="f3"></div>
+      <div class="row"><label>মাতার নাম:</label><input id="f4"></div>
+    </div>
+    <div class="photo" id="photoBox"><span id="photoTxt">পাসপোর্ট সাইজ<br>ছবি<br><small>(ক্লিক করে আপলোড)</small></span><img id="photoImg" alt="" style="display:none"><input type="file" id="photoIn" class="pin" accept="image/*"></div>
+  </div>
+  <div class="grid">
+    <div class="row"><label>গ্রাম:</label><input></div>
+    <div class="row"><label>ডাকঘর:</label><input></div>
+    <div class="row"><label>ইউনিয়ন:</label><input></div>
+    <div class="row"><label>উপজেলা/থানা:</label><input></div>
+    <div class="row"><label>জেলা:</label><input></div>
+    <div class="row"><label>জন্ম তারিখ:</label><input placeholder="দিন/মাস/বছর"></div>
+  </div>
+  <div class="row"><label>এনআইডি নম্বর/পাসপোর্ট নং:</label><input inputmode="numeric"></div>
+  <div class="grid">
+    <div class="row"><label>মোবাইল নম্বর:</label><input type="tel" inputmode="tel"></div>
+    <div class="row"><label>শেয়ারের পরিমাণ:</label><input inputmode="numeric"></div>
+  </div>
+  <div class="note">প্রতি শেয়ারের মূল্য ১,০০০/- (এক হাজার) টাকা।</div>
+
+  <div class="sec">নমিনি সংক্রান্ত তথ্য</div>
+  <div class="grid">
+    <div class="row"><label>নমিনীর নাম:</label><input></div>
+    <div class="row"><label>সম্পর্ক:</label><input></div>
+    <div class="row"><label>পিতার নাম:</label><input></div>
+    <div class="row"><label>মাতার নাম:</label><input></div>
+    <div class="row"><label>এনআইডি নম্বর:</label><input inputmode="numeric"></div>
+    <div class="row"><label>মোবাইল নম্বর:</label><input type="tel" inputmode="tel"></div>
+  </div>
+
+  <div class="sec">ঘোষণাপত্র</div>
+  <p class="decl">আমি এই মর্মে ঘোষণা করছি যে, উপরে প্রদত্ত সকল তথ্য সঠিক। প্রকল্পের সকল নিয়ম-কানুন মেনে চলতে সম্মত আছি।</p>
+  <div class="sigs">
+    <div class="sig"><i></i>সদস্যের স্বাক্ষর</div>
+    <div class="sig"><i></i>সভাপতির স্বাক্ষর</div>
+    <div class="sig"><i></i>সাধারণ সম্পাদকের স্বাক্ষর</div>
+  </div>
+
+  <div class="foot">
+    <div class="gl"></div>
+    <svg width="210" height="120" viewBox="0 0 210 120"><path d="M8 78C40 52 70 50 80 56M202 78C170 52 140 50 130 56" fill="none" stroke="#a9c3b3" stroke-width="2.5"/><path d="M30 78C55 62 72 62 80 66M180 78C155 62 138 62 130 66" fill="none" stroke="#c0993f" stroke-width="2"/><path d="M52 52 105 8l53 44z" fill="#1b5a3e"/><rect x="136" y="14" width="10" height="24" fill="#1b5a3e"/><rect x="58" y="52" width="94" height="62" fill="#fff" stroke="#1b5a3e" stroke-width="5"/><rect x="68" y="62" width="18" height="18" fill="none" stroke="#1b5a3e" stroke-width="3"/><rect x="124" y="62" width="18" height="18" fill="none" stroke="#1b5a3e" stroke-width="3"/><rect x="95" y="80" width="20" height="34" fill="#d4e6db" stroke="#1b5a3e" stroke-width="2"/></svg>
+    <b>সীমান্ত স্বপ্নভূমি</b>
+    <small>কসবা সীমান্ত স্বপ্নভূমি প্রকল্প ২০২৬</small>
+  </div>
+</div>
+<div class="hint">ফর্ম পূরণ করে "ডাউনলোড" চাপলে ছবি (PNG) সেভ হবে।</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script>
+(function(){
+  var photoIn=document.getElementById('photoIn'),box=document.getElementById('photoBox');
+  photoIn.addEventListener('change',function(){
+    var f=this.files&&this.files[0]; if(!f) return;
+    var r=new FileReader();
+    r.onload=function(e){
+      var img=document.getElementById('photoImg');
+      img.onload=function(){ img.style.display='block'; document.getElementById('photoTxt').style.display='none'; };
+      img.onerror=function(){ alert('ছবিটি লোড করা যায়নি। JPG বা PNG ছবি দিন।'); };
+      img.src=e.target.result;
+    };
+    r.onerror=function(){ alert('ছবি পড়া যায়নি, আবার চেষ্টা করুন।'); };
+    r.readAsDataURL(f);
+  });
+  document.getElementById('rs').addEventListener('click',function(){
+    if(!confirm('সব তথ্য মুছে ফেলবেন?')) return;
+    document.querySelectorAll('#sheet input').forEach(function(i){ if(i.type!=='file') i.value=''; });
+    var pi=document.getElementById('photoImg'); pi.removeAttribute('src'); pi.style.display='none';
+    document.getElementById('photoTxt').style.display='';
+    photoIn.value='';
+  });
+  document.getElementById('dl').addEventListener('click',function(){
+    var b=this, old=b.textContent;
+    if(typeof html2canvas!=='function'){ alert('ডাউনলোড টুল লোড হয়নি। ইন্টারনেট চেক করে আবার চেষ্টা করুন।'); return; }
+    b.textContent='অপেক্ষা করুন…'; b.disabled=true;
+    var go=function(){
+      html2canvas(document.getElementById('sheet'),{
+        scale:3,backgroundColor:'#ffffff',useCORS:true,windowWidth:794,
+        onclone:function(doc){
+          var s=doc.getElementById('sheet'); s.style.width='794px'; s.style.maxWidth='794px';
+          s.style.margin='0';
+          var ins=doc.querySelectorAll('#sheet input');
+          var orig=document.querySelectorAll('#sheet input');
+          ins.forEach(function(el,i){ el.setAttribute('value',orig[i].value); });
+        }
+      }).then(function(c){
+        var name=(document.getElementById('f2').value||document.getElementById('f1').value||'member').trim().replace(/\s+/g,'_');
+        var a=document.createElement('a');
+        a.href=c.toDataURL('image/png'); a.download='member-form-'+name+'.png';
+        document.body.appendChild(a); a.click(); a.remove();
+      }).catch(function(){ alert('ডাউনলোড ব্যর্থ হয়েছে, আবার চেষ্টা করুন।'); })
+      .then(function(){ b.textContent=old; b.disabled=false; });
+    };
+    (document.fonts&&document.fonts.ready?document.fonts.ready:Promise.resolve()).then(go);
+  });
+})();
+(function(){
+  var WA_GROUP='https://chat.whatsapp.com/EwSaVcJrF4hIAvZc1BDT5y?s=cl&p=a&iam=2';
+  var WA_NUMBER=''; // used only if WA_GROUP is empty, e.g. '8801XXXXXXXXX'
+  function summary(){
+    var t='*কসবা সীমান্ত স্বপ্নভূমি প্রকল্প ২০২৬ – সদস্য ফর্ম*\n';
+    document.querySelectorAll('#sheet .sec, #sheet .row').forEach(function(n){
+      if(n.classList.contains('sec')){ t+='\n*'+n.textContent.trim()+'*\n'; return; }
+      var l=n.querySelector('label').textContent.replace(/:\s*$/,'').trim();
+      var v=n.querySelector('input').value.trim();
+      if(v) t+=l+': '+v+'\n';
+    });
+    return t;
+  }
+  document.getElementById('wa').addEventListener('click',function(){
+    var b=this, old=b.textContent, text=summary();
+    var openWA=function(){
+      try{ navigator.clipboard.writeText(text); }catch(e){}
+      var u=WA_GROUP||('https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(text));
+      alert('ফর্মের তথ্য কপি হয়েছে। গ্রুপে পেস্ট করুন এবং ডাউনলোড হওয়া ছবিটি অ্যাটাচ করুন।');
+      if(!window.open(u,'_blank')) location.href=u;
+    };
+    if(typeof html2canvas!=='function'){ openWA(); return; }
+    b.disabled=true; b.textContent='অপেক্ষা করুন…';
+    html2canvas(document.getElementById('sheet'),{
+      scale:2,backgroundColor:'#ffffff',useCORS:true,windowWidth:794,
+      onclone:function(doc){
+        var s=doc.getElementById('sheet'); s.style.width='794px'; s.style.maxWidth='794px'; s.style.margin='0';
+        var ins=doc.querySelectorAll('#sheet input'), orig=document.querySelectorAll('#sheet input');
+        ins.forEach(function(el,i){ el.setAttribute('value',orig[i].value); });
+      }
+    }).then(function(c){
+      return new Promise(function(res){ c.toBlob(res,'image/png'); });
+    }).then(function(blob){
+      var file=new File([blob],'member-form.png',{type:'image/png'});
+      if(navigator.canShare && navigator.canShare({files:[file]})){
+        return navigator.share({files:[file],text:text}).catch(function(e){ if(!e||e.name!=='AbortError') openWA(); });
+      }
+      var a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='member-form.png';
+      document.body.appendChild(a); a.click(); a.remove();
+      openWA();
+    }).catch(openWA).then(function(){ b.textContent=old; b.disabled=false; });
+  });
+})();
+</script>
+</body>
+</html>
